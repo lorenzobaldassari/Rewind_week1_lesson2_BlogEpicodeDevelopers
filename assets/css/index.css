@@ -1,0 +1,28 @@
+.width-90 {
+  width: 90%;
+}
+ @media screen and (min-width:992px) {
+    .height{
+        height: 380px !important;
+        
+    }
+ }
+
+ .list-none{
+    list-style: none;
+ }
+ body{
+   position: relative;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,191,149,1) 30%, rgba(210,107,79,1) 100%);
+ }
+ .bg-non{
+background:none !important;
+ }
+ .stick{
+   position: sticky !important;
+   top: 0;
+   background-color: #CF6C50;
+   z-index: 5;
+ }
+   
+ 

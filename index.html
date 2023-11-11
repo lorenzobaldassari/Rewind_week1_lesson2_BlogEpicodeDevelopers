@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Epicode-il blog dei developers</title>
+    <meta description="blog di epicode" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="stick">
+      <nav class="navbar navbar-expand-lg bg-non ">
+        <div class="container-fluid">
+          <img src="assets/img/logo.svg" width="150" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Articoli</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Lavora con noi</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end navbar -->
+
+    <!-- main section -->
+    <main class="d-flex flex-column align-items-center">
+      <div class="text-center my-2">
+        <h1>Come creare un template per i post</h1>
+        <p>di Lorenzo Baldassari <span id="date"></span></p>
+      </div>
+      <div class="container-fluid heigh">
+        <div class="row heght g-4 justify-content-center">
+          <div class="col-12 px-2 col-lg-6 col-xxl-4 height">
+            <div
+              class="border-4 border border-danger p-3 height d-flex flex-column justify-content-center"
+            >
+              <h6 class="mb-4">
+                la prima cosa da fare e' suddividere in blocchi logici la
+                pagina, identificando le parti comuni da applicare a tutte le
+                pagine
+              </h6>
+
+              <ul class="list-group">
+                <p>le varie sezione saranno divise in:</p>
+                <li class="list-group-item bg-non border-0">
+                  contenuti di intestazione detti &lt;header&gt;
+                </li>
+                <li class="list-group-item bg-non border-0">
+                  contenuti centrali variabili del tag&lt;main&gt; (corpo
+                  principale)
+                </li>
+                <li class="list-group-item bg-non border-0">
+                  contenuti di fine pagina comnuni, da inserire nel tag
+                  &lt;footer&gt;
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-12 px-2 col-lg-6 col-xxl-4 d-flex flex-column justify-content-center height"
+          >
+            <div
+              class="border-4 border border-warning p-3 height d-flex flex-column justify-content-center"
+            >
+              <h6 class="mb-4">Formattazione del codice</h6>
+
+              <ul class="list-group">
+                <p>
+                  il testo dell'articolo dovra' essere formattato per
+                  identificare tutte le parti da selezionare con i CSS.percio' i
+                  passi saranno:
+                </p>
+                <li class="bg-non border-0 list-group-item">
+                  progettare il markup assegnando ad ogni specifico testo il tag
+                  appropriato
+                </li>
+                <li class="bg-non border-0 list-group-item">
+                  scrivere l'HTML dai tag estrni a quelli interni e dall'alyo
+                  verso il basso
+                </li>
+                <li class="bg-non border-0 list-group-item">
+                  applicare gli stili CSS
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-12 px-2 col-md-12 col-xxl-4 d-flex flex-column justify-content-center height d-flex flex-column justify-content-center"
+          >
+            <div class="border-4 border border-success p-3 height">
+              <h6>
+                l'applicazione di stili CSS e' cresciuta negli anni fino a
+                raggiungere la diffusione pressoche' totale
+              </h6>
+              <table class="table table-bordered">
+                <thead>
+                  <p>Diffusione Dei CSS</p>
+                  <tr class="text-center table-info">
+                    <th scope="col">Anno</th>
+                    <th scope="col">% di utilizzo</th>
+                    <th scope="col">Supporto dei Browswes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text-center table-secondary">
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                  </tr>
+                  <tr class="text-center table-info">
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>@22%</td>
+                  </tr>
+                  <tr class="text-center table-secondary">
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>42%</td>
+                  </tr>
+                  <tr class="text-center table-info">
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                  </tr>
+                  <tr class="text-center table-secondary">
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main section -->
+    <section>
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div
+            class="col-12 col-xxl-6 d-flex align-items-center justify-content-between"
+          >
+            <div class="row align-items-center justify-content-between mb-4">
+              <div class="col-md-6 col-12 d-flex">
+                <h6>
+                  un test di valutazione online potra' essere fatto tramiter il
+                  <a href="https://meteo930120.vercel.app/">tool online</a>
+                  dedicato allo scopo. Una volta ottimizzato il tutto, avremo
+                  raggiunto il nostro obiettivo ed essere stati dei veri
+                  developers come loro
+                </h6>
+              </div>
+              <div class="col-md-6 col-12 d-flex justify-content-center">
+                <iframe
+                  src="https://www.youtube.com/watch?v=TZo_Yvl23ns&ab_channel=InteractiveVideo"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xxl-6 col-12 d-flex align-items-center justify-content-center"
+          >
+            <div class="row align-items-center justify-content-center">
+              <div
+                class="col-md-6 col-12 d-flex align-items-center justify-content-center"
+              >
+                <h6>
+                  vuoi restare sempre aggiornato? iscrivi alla nostra
+                  newsletter:
+                </h6>
+              </div>
+              <div class="col-md-6 col-12">
+                <form class="d-flex align-items-start justify-content-center">
+                  <div
+                    class="mb-3 d-flex align-items-center justify-content-center"
+                  >
+                    <input
+                      type="email"
+                      class="mb-0 ms-3 pb-0 form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">
+                    iscriviti!
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="text-center text-white" style="background-color: #b2b2b2">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <div class="container text-dark">
+            <h6 class="me-4">Articoli correlati</h6>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <ul
+                  class="list-group list-none d-flex flex-column align-items-center"
+                >
+                  <div class="d-flex flex-column align-items-start">
+                    <li class="liszt-group-item">validare il codice html</li>
+                    <li class="liszt-group-item">categoria: develop</li>
+                    <li class="list-group-zitem">
+                      data <span id="data1"></span>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-6 d-none d-md-block col-md-4">
+                <ul
+                  class="list-group list-none d-flex flex-column align-items-center"
+                >
+                  <div class="d-flex flex-column align-items-start">
+                    <li class="list-gsroup-item">correggere la sintassi</li>
+                    <li class="list-grousp-item">categoria: develop</li>
+                    <li class="list-gsroup-item">
+                      data <span id="data3"></span>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-6 d-none d-md-block col-md-4">
+                <ul
+                  class="list-group list-none d-flex flex-column align-items-center"
+                >
+                  <div class="d-flex flex-column align-items-start ms-4">
+                    <li class="list-zgroup-item">meno kb nella pagina</li>
+                    <li class="list-zgroup-item">categoria: ottimizzazione</li>
+                    <li class="list-zgroup-item">
+                      data <span id="data2"></span>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-dark p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        <span id="data8"></span> Copyright:Baldassari Lorenzo
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <p>
+          Testata Online di Mario Rossi, registrata con prot. n213/2018 - via
+          Luigi Einaudi2 - Milano. P.IVA 0012233 inf@epicode.school
+        </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
